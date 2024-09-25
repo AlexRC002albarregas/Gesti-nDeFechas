@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  display: flex; /* Utiliza flexbox para centrar los elementos */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Altura completa de la ventana */
+  background-color: #f0f0f0; /* Color de fondo opcional */
+}
+
+.app {
+  display: flex; 
+  flex-direction: column; /* Coloca los elementos en columna */
+  align-items: center; /* Centra los elementos dentro de la columna */
+}
+
+.contador {
+  font-size: 2em;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.verde {
+  color: white;
+  background-color: green;
+}
+
+.naranja {
+  color: white;
+  background-color: orange;
+}
+
+.rojo {
+  color: white;
+  background-color: red;
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 20px;
+  display: block;
+  width: 200px; /* Ajusta el ancho del input */
+}
